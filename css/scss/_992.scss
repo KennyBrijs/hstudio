@@ -1,0 +1,81 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 992 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================
+
+nav[role="navigation"]{
+	width: 50%;
+	a{
+		float: left;
+		width: 25%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+#portfolio{
+	h1{
+		@include font-size(42);
+	}
+	.slider{
+		li{
+			width: 25%;
+		}
+	}
+}
+
+#blog{
+	@include clearfix();
+	article{
+		width: 40%;
+		margin: 20px 5%;
+		float: left;
+
+		&:nth-child(odd){
+			clear: left;
+		}
+	}
+
+	a.button{
+		clear: both;
+	}
+}
+
+#footer{
+	.search, .vcard, .social, .calendar, .menu, .team{
+		width: 25%;
+		margin: 20px 4.1666666667%;
+		float: left;
+	}
+	.social, .team{
+		clear: right;
+	}
+	.calendar{
+		clear: left;
+	}
+	nav.menu{
+		clear: none;
+	}
+
+	nav.menu a{
+		float: none;
+	}
+}

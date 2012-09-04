@@ -1,0 +1,105 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 600 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================
+
+nav[role="navigation"]{
+	text-align: center;
+	a{
+		display: inline-block;
+	}
+}
+
+#portfolio{
+	h1{
+		@include font-size(32);
+	}
+	.slider{
+		@include clearfix();
+		width: auto;
+		li{
+			width: 50%;
+			float: left;
+
+			a{
+				margin: 25px auto;
+			}
+		}
+	}
+}
+
+#services{
+	@include clearfix();
+	article{
+		width: 40%;
+		margin: 20px 5%;
+		float: left;
+
+		&:nth-child(odd){
+			clear: left;
+		}
+	}
+}
+
+#footer{
+	@include clearfix();
+	text-align: left;
+	.search, .vcard, .social, .calendar{
+		width: 40%;
+		margin: 20px 5%;
+		float: left;
+	}
+	.search, .social{
+		clear: left;
+	}
+
+	.social{
+		text-align: center;
+	}
+
+	.calendar{
+		th, td{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		tfoot th{
+			padding-left: 8px;
+		}
+	}
+
+	nav.menu{
+		@include clearfix();
+		clear: both;
+		a{
+			float: left;
+			width: 15%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+	}
+}
+
+#copyright{
+	img{
+		float: left;
+	}
+	p{
+		float: right;
+	}
+}

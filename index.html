@@ -1,0 +1,306 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>hStudio</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <!--<link rel="stylesheet" href="css/style.css">-->
+  <link rel="stylesheet" href="css/320andup-scss.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="main" role="main">
+      <div id="containerheaderportfolio">
+        <header id="menu">
+          <a href="#"><img src="img/hStudio.png" alt="hStudio"></a>
+          <nav role="navigation">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#social">Social</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+        <section id="portfolio">
+          <h1>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</h1>
+          <ul class="slider">
+            <li><a href="#"><img src="img/portfolioscreenshot.png" alt="portfoliopiece"></a></li>
+            <li><a href="#"><img src="img/portfolioscreenshot.png" alt="portfoliopiece"></a></li>
+            <li><a href="#"><img src="img/portfolioscreenshot.png" alt="portfoliopiece"></a></li>
+            <li><a href="#"><img src="img/portfolioscreenshot.png" alt="portfoliopiece"></a></li>
+          </ul>
+          <a href="#" class="button white">View our portfolio</a>
+        </section>
+      </div>
+      <div id="containerservices">
+        <section id="services">
+          <article>
+            <header>
+              <img src="img/calendar.png" alt="">
+              <h1>Sed ut perspiciatis unde</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            <a href="#">Read more</a></p>
+          </article>
+          <article>
+            <header>
+              <img src="img/briefcase.png" alt="">
+              <h1>Sed ut perspiciatis unde</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            <a href="#">Read more</a></p>
+          </article>
+          <article>
+            <header>
+              <img src="img/cube.png" alt="">
+              <h1>Sed ut perspiciatis unde</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            <a href="#">Read more</a></p>
+          </article>
+          <article>
+            <header>
+              <img src="img/cloud.png" alt="">
+              <h1>Sed ut perspiciatis unde</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            <a href="#">Read more</a></p>
+          </article>
+        </section>
+      </div>
+      <section id="blog">
+        <article>
+          <header>
+            <h1>Duis aute irure dolor in reprehenderit in.</h1>
+          </header>
+          <footer>
+              <address>Posted by: <a href="#">mirwp</a></address>
+              <time datetime="2011-05-30" pubdate>Posted on: May 30<sup>th</sup> 2011</time>
+              <a href="#" class="comments">2&nbsp;Comments</a>
+          </footer>
+          <a href="#">
+            <img src="img/blogpost.png" alt="">
+            <p>
+              Inferis enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </a>
+        </article>
+        <article>
+          <header>
+            <h1>Duis aute irure dolor in reprehenderit in.</h1>
+          </header>
+          <footer>
+              <address>Posted by: <a href="#">mirwp</a></address>
+              <time datetime="2011-05-30" pubdate>Posted on: May 30<sup>th</sup> 2011</time>
+              <a href="#" class="comments">2&nbsp;Comments</a>
+          </footer>
+          <a href="#">
+            <img src="img/blogpost.png" alt="">
+            <p>
+              Inferis enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </a>
+        </article>
+        <a href="#blog" class="button red">View our blog</a>
+      </section>
+      <div id="containersocial">
+        <section id="social">
+          <article>
+            <address>
+              <h1>Themes Kingdom</h1>
+              <h2>Graphic Designer</h2>
+              <a href="#">@themeskingdom</a>
+            </address>
+            <p>10 Dirty Internet Explorer CSS Hacks You Might Not know - <a href="#">http://ow.ly/3aUPE</a></p>
+            <time datetime="2012-08-28T14:27" pubdate>1 hour ago</time>
+          </article>
+          <article>
+            <address>
+              <h1>Themes Kingdom</h1>
+              <h2>Graphic Designer</h2>
+              <a href="#">@themeskingdom</a>
+            </address>
+            <p>10 Dirty Internet Explorer CSS Hacks You Might Not know - <a href="#">http://ow.ly/3aUPE</a></p>
+            <time datetime="2012-08-28T14:27" pubdate>1 hour ago</time>
+          </article>
+          <article>
+            <address>
+              <h1>Themes Kingdom</h1>
+              <h2>Graphic Designer</h2>
+              <a href="#">@themeskingdom</a>
+            </address>
+            <p>10 Dirty Internet Explorer CSS Hacks You Might Not know - <a href="#">http://ow.ly/3aUPE</a></p>
+            <time datetime="2012-08-28T14:27" pubdate>1 hour ago</time>
+          </article>
+          <a href="#" class="button beige"><img src="img/twitter.png" alt="twitter logo"> Follow us</a>
+        </section>
+      </div>
+    </div>
+    <div id="containerfooter">
+      <footer id="footer">
+        <div class="search">
+          <h1>Looking <small>for</small> something?</h1>
+          <h2>Search through our blog</h2>
+          <form role="search">
+            <input type="search" placeholder="Enter your keywords">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+        <div class="vcard">
+          <h1>Contact us <small>for</small> quotation</h1>
+          <h2>Monday to Friday 8am to 4pm GMT+1</h2>
+          <h1><a href="tel:1231234880">Tel: 1 23 1234 880</a> <small>or</small> <a href="mailto:xoxo@hstudio.com">Email us</a></h1>
+        </div>
+        <div class="social">
+          <ul>
+            <li><a href="#"><img src="img/twitter-logo.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="img/facebook-logo.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/rss-logo.png" alt="RSS"></a></li>
+            <li><a href="#"><img src="img/googleplus-logo.png" alt="Google+"></a></li>
+            <li><a href="#"><img src="img/linkedin-logo.png" alt="LinkedIn"></a></li>
+          </ul>
+          <h1>Follow us <small>on</small> the web</h1>
+        </div>
+        <table class="calendar">
+          <thead>
+            <tr>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+              <th>S</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th colspan="7">August 2012</th>
+            </tr>
+          </tfoot>
+          <tr>
+            <td>30</td>
+            <td>31</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td class="today">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+        </table>
+        <nav class="menu">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#social">Social</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="team">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
+          <a href="#" class="button red small">Meet our team</a>
+        </div>
+      </footer>
+    </div>
+    <div id="containercopyright">
+      <div id="copyright">
+        <img src="img/hstudio-small.png" alt="hStudio">
+        <p>Copyright Information Goes Here © 2010. All Rights Reserved.</p>
+      </div>
+    </div>  
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
