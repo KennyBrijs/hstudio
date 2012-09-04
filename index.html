@@ -41,7 +41,13 @@
     <div id="main" role="main">
       <div id="containerheaderportfolio">
         <header id="menu">
-          <a href="#"><img src="img/hStudio.png" alt="hStudio"></a>
+          <a href="#">
+            <div data-picture data-alt="hStudio">
+              <div data-src="img/hStudio.png"></div>
+              <div data-src="img/hStudio@l.png" data-media="(min-width: 600px)"></div>
+              <noscript><img src="img/hStudio.png" alt=""></noscript>
+            </div>
+          </a>
           <nav role="navigation">
             <a href="#portfolio">Portfolio</a>
             <a href="#services">Services</a>
@@ -107,7 +113,11 @@
               <a href="#" class="comments">2&nbsp;Comments</a>
           </footer>
           <a href="#">
-            <img src="img/blogpost.png" alt="">
+            <div data-picture data-alt="blogpst">
+              <div data-src="img/blogpost.png"></div>
+              <div data-src="img/blogpost@l.png" data-media="(min-width: 600px)"></div>
+              <noscript><img src="img/blogpost.png" alt="blogpost"></noscript>
+            </div>
             <p>
               Inferis enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
@@ -123,7 +133,11 @@
               <a href="#" class="comments">2&nbsp;Comments</a>
           </footer>
           <a href="#">
-            <img src="img/blogpost.png" alt="">
+            <div data-picture data-alt="blogpst">
+              <div data-src="img/blogpost.png"></div>
+              <div data-src="img/blogpost@l.png" data-media="(min-width: 600px)"></div>
+              <noscript><img src="img/blogpost.png" alt="blogpost"></noscript>
+            </div>
             <p>
               Inferis enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
@@ -283,6 +297,8 @@
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
+  <script defer src="js/libs/matchmedia.js"></script>
+  <script defer src="js/libs/picturefill.js"></script>
   <!-- end scripts-->
 
 	
