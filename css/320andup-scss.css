@@ -1944,7 +1944,7 @@ nav[role="navigation"] a {
   top: 0;
   display: block;
   padding: 8px 12px;
-  margin-top: 5px;
+  margin-top: 10px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -2484,8 +2484,8 @@ nav[role="navigation"] a {
   /* 1382 =================================================== */
   #services article {
     width: 20%;
-    margin-left: 2%;
-    margin-right: 2%; }
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
     #services article:nth-child(odd) {
       clear: none; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {

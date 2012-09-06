@@ -74,7 +74,7 @@ nav[role="navigation"] a{
 			top: 0;
 			display: block;
 			padding: 8px 12px;
-			margin-top: 5px;
+			margin-top: 10px;
 			@include rounded(6px);
 			@include vertical($lightergrey, darken($lightergrey, 15%));
 			@include box-shadow(inset 0 0 1px $white);
