@@ -38,7 +38,10 @@ nav[role="navigation"]{
 			float: left;
 
 			a{
-				margin: 25px auto;
+				// margin: 25px auto;
+				width: 80%;
+				margin-left: 10%;
+				margin-right: 10%;
 			}
 		}
 	}

@@ -1827,7 +1827,7 @@ table {
 #portfolio .slider {
   margin: 0 auto;
   padding: 0;
-  width: 281px; }
+  width: 100%; }
 
 img {
   max-width: 100%; }
@@ -1906,8 +1906,6 @@ nav[role="navigation"] a {
   list-style: none; }
   #portfolio .slider li a {
     display: block;
-    width: 205px;
-    height: 150px;
     padding: 8px;
     margin: 30px;
     background: rgba(0, 0, 0, 0.2);
@@ -2300,7 +2298,9 @@ nav[role="navigation"] a {
       width: 50%;
       float: left; }
       #portfolio .slider li a {
-        margin: 25px auto; }
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%; }
 
   #services {
     *zoom: 1; }
