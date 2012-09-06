@@ -19,6 +19,13 @@
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================
 
+#menu{
+	 img[alt="hStudio"]{
+	 	width: 152px;
+	 	height: 54px;
+	}
+}
+
 nav[role="navigation"]{
 	text-align: center;
 	a{

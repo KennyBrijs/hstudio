@@ -1904,6 +1904,8 @@ article {
     border-image: url(img/borderdecoration-whitered.png) 9 0 fill repeat; }
 
 #menu img[alt="hStudio"] {
+  width: 100px;
+  height: 36px;
   margin: 30px; }
 
 nav[role="navigation"] a {
@@ -2332,6 +2334,10 @@ nav[role="navigation"] a {
   /* 480 =================================================== */ }
 @media only screen and (min-width: 600px) {
   /* 600 =================================================== */
+  #menu img[alt="hStudio"] {
+    width: 152px;
+    height: 54px; }
+
   nav[role="navigation"] {
     text-align: center; }
     nav[role="navigation"] a {
