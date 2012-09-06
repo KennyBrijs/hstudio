@@ -1959,24 +1959,28 @@ nav[role="navigation"] a {
     background-image: linear-gradient(top, #bfbfbf, #e6e6e6);
     background-repeat: repeat-x; }
 #services article header img {
-  margin: 1px 10px;
+  margin: 1px 10px 15px;
   float: left; }
 
-#blog article footer address:before {
-  content: url("img/icon-person.png"); }
-#blog article footer address:after {
-  content: ' / '; }
-#blog article footer time:before {
-  content: url("img/icon-calendar.png"); }
-#blog article footer time:after {
-  content: ' / '; }
-#blog article footer a.comments:before {
-  content: url("img/icon-comment.png"); }
-#blog article footer *:before, #blog article footer *:after {
-  margin: 0 5px; }
-#blog article footer *:before {
-  position: relative;
-  top: 2px; }
+#blog article footer {
+  margin-top: -15px; }
+  #blog article footer address:before {
+    content: url("img/icon-person.png"); }
+  #blog article footer address:after {
+    content: ' / '; }
+  #blog article footer time:before {
+    content: url("img/icon-calendar.png"); }
+  #blog article footer time:after {
+    content: ' / '; }
+  #blog article footer a.comments:before {
+    content: url("img/icon-comment.png"); }
+  #blog article footer *:before, #blog article footer *:after {
+    margin: 0 5px; }
+  #blog article footer *:before {
+    position: relative;
+    top: 2px; }
+#blog article img[alt="blogpost"] {
+  margin-bottom: 10px; }
 
 #social article p {
   position: relative;

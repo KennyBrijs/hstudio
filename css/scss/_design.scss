@@ -88,7 +88,7 @@ nav[role="navigation"] a{
 			}
 		}
 		header img{
-			margin: 1px 10px;
+			margin: 1px 10px 15px;
 			float: left;
 		}
 	}
@@ -96,6 +96,7 @@ nav[role="navigation"] a{
 
 #blog article{
 	footer{
+		margin-top: -15px;
 		address{
 			&:before{
 				content: url('img/icon-person.png');
@@ -122,6 +123,9 @@ nav[role="navigation"] a{
 			position: relative;
 			top: 2px;
 		}
+	}
+	img[alt="blogpost"]{
+		margin-bottom: 10px;
 	}
 }
 
