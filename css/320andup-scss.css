@@ -301,14 +301,16 @@ header a, nav a, a.button {
   text-decoration: none;
   text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.3); }
 
-article footer address, article footer time, article footer a.comments {
-  font-size: 14pxpx;
-  font-size: 1.4pxrem;
-  font-size: 14px !important;
-  font-family: Cambria, Georgia, Times, "Times New Roman", serif;
-  font-style: italic; }
-article footer a.comments {
-  color: #d75240; }
+#blog article footer {
+  margin-top: -15px; }
+  #blog article footer address, #blog article footer time, #blog article footer a.comments {
+    font-size: 14pxpx;
+    font-size: 1.4pxrem;
+    font-size: 14px !important;
+    font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+    font-style: italic; }
+  #blog article footer a.comments {
+    color: #d75240; }
 
 #social article {
   text-align: center; }
@@ -1959,8 +1961,12 @@ nav[role="navigation"] a {
     background-image: linear-gradient(top, #bfbfbf, #e6e6e6);
     background-repeat: repeat-x; }
 #services article header img {
-  margin: 1px 10px;
+  margin: 1px 10px 15px;
   float: left; }
+
+a:hover {
+  position: relative;
+  top: -5px; }
 
 #blog article footer address:before {
   content: url("img/icon-person.png"); }
@@ -1977,6 +1983,8 @@ nav[role="navigation"] a {
 #blog article footer *:before {
   position: relative;
   top: 2px; }
+#blog article img[alt="blogpost"] {
+  margin-bottom: 10px; }
 
 #social article p {
   position: relative;

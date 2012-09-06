@@ -291,7 +291,8 @@ header a, nav a, a.button{
 	text-shadow: 1px 2px 1px rgba(255,255,255,.3);
 }
 
-article footer{
+#blog article footer{
+	margin-top: -15px;
 	address, time, a.comments{
 		@include font-size(14px);
 		font-size: 14px !important; //TODO: Without !important time's and a.comments' styles get overwritten, by what and why?

@@ -88,10 +88,17 @@ nav[role="navigation"] a{
 			}
 		}
 		header img{
-			margin: 1px 10px;
-			float: left;
+				margin: 1px 10px 15px;
+				float: left;
 		}
 	}
+}
+
+a:hover{
+	position: relative;
+	top: -5px;
+	// PROPERTY DURATION DELAY(OPTIONAL) TIMING-FINCTION
+	@include transition(top, 1s .2s ease-in-out);
 }
 
 #blog article{
@@ -122,6 +129,10 @@ nav[role="navigation"] a{
 			position: relative;
 			top: 2px;
 		}
+	}
+
+	img[alt="blogpost"]{
+		margin-bottom: 10px;
 	}
 }
 
