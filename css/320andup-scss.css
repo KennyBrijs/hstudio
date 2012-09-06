@@ -1830,6 +1830,9 @@ table {
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #c7ced6; }
 
+#container {
+  overflow: hidden; }
+
 #portfolio .slider {
   margin: 0 auto;
   padding: 0;
